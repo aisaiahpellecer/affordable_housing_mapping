@@ -1,0 +1,11 @@
+scikit-learn
+eli5
+beautifulsoup4
+requests
+pandas
+requests
+regex
+matplotlib
+seaborn
+geopandas
+snakemake
