@@ -82,7 +82,7 @@ ax.set_axis_off()
 final.boundary.plot(ax=ax, linewidth=0.3, color='black')
 plt.title("Count of Urbanize Chicago\nAffordable Housing Coverage", fontsize=16)
 final.plot(column="prediction", cmap="Purples", ax=ax, legend=True)
-for x, y, label in zip(final.geometry.centroid.x, final.geometry.centroid.y, final['area_numbe']):
-    ax.annotate(str(label), xy=(x, y), xytext=(0, 0), textcoords="offset points", ha='center', va='center', color='black', fontsize=10)
+# for x, y, label in zip(final.geometry.centroid.x, final.geometry.centroid.y, final['area_numbe']):
+#     ax.annotate(str(label), xy=(x, y), xytext=(0, 0), textcoords="offset points", ha='center', va='center', color='black', fontsize=10)
 
 plt.savefig("figures/chicago.png", dpi=450)
